@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="zoom_box">
+                <img src="../static/bgPrint.jpg" class="mainbg">
+                <div class="card">
+                    <img src="./static/bg1.png" class="video">
+                </div>
+                <div class="card">
+                    <img src="./static/bg2.png" class="video">
+                </div>
+                <div class="card">
+                    <img src="./static/bg3.png" class="video">
+                </div>
+                <div class="card">
+                    <img src="./static/bg4.png" class="video">
+                </div>
+                <div class="card">
+                    <video src="./static/1.mp4" preload="load" loop="loop" class="video vv1"></video>
+                </div>
+                <div class="card">
+                    <video src="./static/2.mp4" preload="load" loop="loop" class="video vv2"></video>
+                </div>
+                <div class="card">
+                    <video src="./static/3.mp4" preload="load" loop="loop" class="video vv3"></video>
+                </div>
+                <div class="card">
+                    <video src="./static/4.mp4" preload="load" loop="loop" class="video vv4"></video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const config = {
+            ws:'ws://api.demonhh.com:2222/api/public/v1/pikSiganl'
+        }
+    </script>
+    <!-- <div class="temp">
+        <div class='teb t1'></div>
+        <div class='teb t2'></div>
+        <div class='teb t3'></div>
+        <div class='teb t4'></div>
+        <div class='teb v1'></div>
+        <div class='teb v2'></div>
+        <div class='teb v3'></div>
+        <div class='teb v4'></div>
+    </div> -->
+</body>
+
+</html>
